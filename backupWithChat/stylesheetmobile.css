@@ -1,0 +1,181 @@
+/*
+* multi-line comment
+*/
+
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h2{
+	overflow: hidden;
+    text-align: center;
+}
+
+
+h1{ font-size: 2.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+/* you can put your code all in one line like above */
+#page{ margin: 20px; }
+
+/* or on different lines like below */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+#logo ul li{
+	display: inline-block;
+	height: 62px;
+}
+/* but try and be as concise as possible */
+.nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+.nav ul li{
+	display: inline-block;
+	height: 62px;
+}	
+.nav ul li a{
+padding: 20px;
+	background: orange;
+	color: white;
+}
+.nav ul li a:hover{
+	background-color: #ffb424;
+	box-shadow: 0px 1px 1px #666;
+}
+.nav ul li a:active{ background-color: #ff8f00; }
+
+
+.dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	margin: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+.dropdown-content #dropdownbutton {
+	
+	width: 100%;
+	border: 0px 0px 0px;
+    background: white;
+    padding: 12px 16px;
+	border: none;
+    text-decoration: none;
+    /*display: block;*/
+	
+}
+
+.dropdown-content #dropdownbutton:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+
+#content{
+	margin: 15px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+#footer{
+	margin-top: 10px;
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+#megadiv, #graphs3{
+    position: relative;
+    overflow: hidden; /*To get your parent to respect the floated divs*/
+}
+
+/* multiple styles seperated by a , */
+#content, ul li a{ box-shadow: 5px 1px 1px #999; }
+#graphs, #graphs32{
+	position: relative;
+    width: 100%; /*Because you only have 3 ele<h2>------------------------------------------------------------</h2>ments (100 divided by 3)*/
+    float: left; /*To get them next to each other if all else fails*/
+    background-color: white;
+    text-align: center;
+}
+#values, #graphs31{
+	position: relative;
+    width: 100%; /*Because you only have 3 elements (100 divided by 3)*/
+    float: right; /*To get them next to each other if all else fails*/
+    background-color: white;
+    text-align: center;
+}
+#values, #graphs { box-shadow: 0px 5px 5px #999; }
+
+#graphs{
+    margin-top: 3%;
+}
+
+
+
+#chatheader{
+    margin-top: 4%;
+}
+
+#page-wrap                      { width: 100%; float: right; }
+
+#chat-wrap                      { border: 1px solid #eee;}
+#chat-area                      { height: 300px; overflow: auto; border: 1px solid #666; padding: 20px; background: white;}
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px;}
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#send-message-area p            { float: left; color: white; padding-top: 27px; font-size: 14px; }
+#sendie                         { border: 3px solid #999; width: 98%; margin-top: 3%; font: 12px "Lucida Grande", Sans-Serif; position: relative; float: right;}
