@@ -9,9 +9,9 @@ ini_set('display_errors', 1);
 
 //login data to database
 $servername = "localhost";
-$username = "pi";
-$password = "burgerking";
-$dbname = "wetterstation";
+$username = "";
+$password = "";
+$dbname = "";
 
 //create connection
 $conn = connectToDatabase($servername, $username, $password, $dbname);
